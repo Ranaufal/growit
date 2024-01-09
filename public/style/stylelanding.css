@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: url(/img/bg1.png);
+    background-size: cover;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.25em;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* logo */
+@media only screen and (max-width: 600px) {
+    .logog {
+        margin-left: 50px;
+        color: white;
+        font-size: 1.35em
+    }
+
+    .logoi {
+        color: rgba(75, 165, 216, 1);
+        font-size: 1.35em
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .logog {
+        margin-left: 50px;
+        color: white;
+        font-size: 1.45em
+    }
+
+    .logoi {
+        color: rgba(75, 165, 216, 1);
+        font-size: 1.45em
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .logog {
+        margin-left: 50px;
+        color: white;
+        font-size: 1.85em
+    }
+
+    .logoi {
+        color: rgba(75, 165, 216, 1);
+        font-size: 1.85em
+    }
+
+}
+
+/* home */
+@media only screen and (max-width: 600px) {
+    .glassbox1 {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.73);
+        font-size: 1.2em;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .glassbox1,
+    p {
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .glassbox1 {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.73);
+        font-size: 1.45em;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .glassbox1,
+    p {
+        font-size: 1em;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .glassbox1 {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.73);
+        font-size: 2.25em;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .glassbox1,
+    p {
+        font-size: 1.25em;
+        text-align: center;
+    }
+}
+
+.home {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.about {
+    width: 100%;
+    margin-bottom: 200px;
+}
+.user-img {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	padding: 0;
+	margin-left: 1rem;
+}
+.user-info .user-name {
+	font-size: 15px;
+	font-weight: 500;
+	color: white
+}
+
+.user-info .designattion {
+	font-size: 13px;
+	color: white
+}
+
+.user-box {
+	display: flex;
+	align-items: center;
+	height: 60px;
+	margin-left: 1rem;
+    margin-right: 2rem;
+}
+.btn-primary {
+    margin-top: 20px;
+    background-color: rgba(75, 165, 216, 1);
+}
+.ourclient{
+    margin-bottom: 200px;
+}
+@media only screen and (max-width: 600px) {
+
+    .konten,
+    .ja1 {
+        font-family: 'Inter', sans-serif;
+        font-size: .75em;
+        color: white;
+    }
+
+    .konten,
+    .ja2i {
+        font-family: 'Inter', sans-serif;
+        font-size: .75em;
+        color: rgba(75, 165, 216, 1);
+
+    }
+
+    .konten,
+    .ja2g {
+        font-family: 'Inter', sans-serif;
+        font-size: .75em;
+        color: white;
+
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .konten,
+    .ja1 {
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 1em;
+    }
+
+    .konten,
+    .ja2i {
+        font-family: 'Inter', sans-serif;
+        color: rgba(75, 165, 216, 1);
+        font-size: 1em;
+
+    }
+
+    .konten,
+    .ja2g {
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 1em;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .konten,
+    .ja1 {
+        font-family: 'Inter', sans-serif;        
+        font-size: 1.25em;
+        color: white;
+    }
+
+    .konten,
+    .ja2i {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.25em;
+
+        color: rgba(75, 165, 216, 1);
+
+    }
+
+    .konten,
+    .ja2g {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.25em;
+
+        color: white;
+
+    }
+}
+
+
+/* glass untuk about */
+@media only screen and (max-width: 600px) {
+    .glassabout {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.73);
+    }
+    .glassabout , img{
+        width: fit-content;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .glassabout {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.73);
+    }
+    .glassabout , img{
+        width: fit-content;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .glassabout {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.73);
+    }
+    .glassabout , img{
+        width: fit-content;
+    }
+}
+
+
+/* glass untuk ourclient  */
+@media only screen and (max-width: 600px) {
+    .glassour {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.73);
+    }
+    .glassour , img{
+        width: fit-content;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .glassour {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.73);
+    }
+    .glassour , img{
+        width: fit-content;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .glassour {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.73);
+    }
+    .glassour , img{
+        width: fit-content;
+    }
+}

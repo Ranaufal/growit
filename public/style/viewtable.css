@@ -1,0 +1,16 @@
+table td,
+table th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+tbody td {
+    font-weight: 500;
+    color: #999999;
+}
+
+.btn-color {
+    background: rgb(30, 25, 139);
+    background: linear-gradient(51deg, rgba(30, 25, 139, 1) 0%, rgba(0, 0, 89, 1) 55%, rgba(0, 95, 255, 1) 100%);
+}
